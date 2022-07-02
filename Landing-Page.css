@@ -1,0 +1,217 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+}
+
+.TopBody{
+    background-color: #1F2937;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    height: 500px;
+}
+
+.Header{
+    display: flex;
+    height: 80px;
+    margin-top: 20px;
+}
+
+.TopLeft{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bolder;
+    margin-left: 350px;
+}
+.TopRight{
+    display: flex;
+    margin-right: 250px;
+    margin-left: auto;
+    gap: 20px;
+    font-size: 18px;
+    color: #E5E7EB;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+.TopMidBody{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    margin-top: 50px;
+}
+
+.MiddleLeft{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 375px;
+    margin-left: 50px;
+    padding: 10px;
+    
+}
+
+.MiddleRight{
+    margin-right: 50px;
+    padding: 10px;
+    
+}
+
+img{
+    width: 200px;
+    height: auto;
+}
+
+.MainText{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.SecondaryText{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.MiddleBody{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.MiddleHeader{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.BoxContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 52px;
+    
+}
+
+.BorderImage{
+    border: 3px blue solid;
+    border-radius: 15px;
+}
+
+.Boxes{
+    max-width: 200px;
+    
+}
+
+.button{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    
+}
+
+.LowerBody{
+    background-color:#E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.ItalicText{
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    width: 650px;
+    
+}
+
+.BoldText{
+    font-weight: bolder;
+    font-size: 18px;
+    color: #1F2937;
+    
+    margin-left: 450px;
+}
+
+.BottomBody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.BottomBox{
+    width: 800px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    display: flex;
+    padding: 50px;
+    width: 800px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.LeftBox{
+    display: flex;
+    flex-direction: column;
+    
+}
+.BottomHeader{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.BottomText{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.RightBox{
+    border: 2px solid white;
+}
+
+.Footer{
+bottom: 0;
+left: 0;
+right: 0;
+background-color: #1F2937;
+font-size: 18px;
+color: #E5E7EB;
+display: flex;
+height: 50px;
+align-items: center;
+justify-content: center;
+}
+
+ul{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+a{
+text-decoration: none;
+font-size: 18px;
+color: #E5E7EB;
+}
